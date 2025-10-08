@@ -1,0 +1,133 @@
+
+
+.header-text {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 106, 255);
+    color: white;
+}
+
+
+.nav-bar {
+    margin-top: 20px;
+    margin-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo {
+    width: 3%;
+}
+
+.webflow {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.left-side-nav {
+    display: flex;
+    align-items:last baseline;
+    gap: 10px;
+    list-style: none;
+}
+
+.right-side-nav {
+    display: flex;
+    align-items: last baseline;
+    list-style: none;
+    gap: 10px;
+    min-width: 300px;
+}
+
+.get-started {
+    padding: 20px;
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+.navbar-hr {
+    margin-top: 20px;
+}
+
+
+
+/* //mobile view css styling */
+
+@media (width < 850px ) {
+   
+   
+    .header-text {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    }
+
+
+.nav-bar {
+    margin-top: 20px;
+    margin-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: none;
+    gap: 0px;
+    
+}
+
+.logo {
+    width: 20%;
+}
+
+.webflow {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.left-side-nav {
+    display: flex;
+    align-items:last baseline;
+    gap: 10px;
+    list-style: none;
+
+}
+
+.right-side-nav {
+    display: flex;
+    align-items: last baseline;
+    list-style: none;
+    gap: 0px;
+    min-width: 200px;
+}
+
+.get-started {
+    padding: 10px;
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    margin-left: 90px;
+    color: white;
+    text-align: center;
+}
+
+.navbar-hr {
+    margin-top: 20px;
+}
+
+.nav-list {
+    display: none;
+}
+
+.login {
+    display: none;
+}
+
+.contact-sales-li {
+    display: none;
+}
+}

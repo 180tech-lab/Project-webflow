@@ -1,0 +1,720 @@
+.complexityhero-container {
+    margin-inline: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.complexity-h1 {
+    font-size: 300%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.complexity-p-text {
+    font-weight: lighter;
+    font-size: 140%;
+
+}
+
+.scalability-h3 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.scalability-p {
+    font-size: 140%;
+}
+
+.scalability-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scale-content-container {
+    margin-top: 200px;
+}
+
+.scale-content-h4 {
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.scale-content-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.optimize-container {
+    margin-top: 20px;
+}
+
+.optimize-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.optimize-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.automate-container {
+    margin-top: 20px;
+}
+
+.automate-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.automate-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.scalability-image-container {
+    width: 650px;
+    height: 750px;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    background-image: url(/src//assets/engineer-4904884_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.governance-h3 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.governance-p {
+    font-size: 140%;
+}
+
+.governance-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enforce-content-container {
+    margin-top: 200px;
+}
+
+.enforce-content-h4 {
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.enforce-content-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.streamline-container {
+    margin-top: 20px;
+}
+
+.streamline-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.streamline-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.stay-container {
+    margin-top: 20px;
+}
+
+.stay-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.stay-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.governance-image-container {
+    width: 650px;
+    height: 750px;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    order: -1;
+    background-image: url(/src/assets/code-2558220.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.managed-h3 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.managed-p {
+    font-size: 140%;
+}
+
+.managed-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.focus-content-container {
+    margin-top: 200px;
+}
+
+.focus-content-h4 {
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.focus-content-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.align-container {
+    margin-top: 20px;
+}
+
+.align-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.align-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.built-container {
+    margin-top: 20px;
+}
+
+.built-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.built-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.managed-image-container {
+    width: 650px;
+    height: 750px;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    order: 1;
+    background-image: url(/src//assets/programming-1873854.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.extensibility-h3 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.extensibility-p {
+    font-size: 140%;
+}
+
+.extensibility-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect-content-container {
+    margin-top: 200px;
+}
+
+.connect-content-h4 {
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.connect-content-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.bring-container {
+    margin-top: 20px;
+}
+
+.bring-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.bring-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.extend-your-container {
+    margin-top: 20px;
+}
+
+.extend-your-h4 {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.extend-your-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.extensibility-image-container {
+    width: 650px;
+    height: 750px;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    order: -1;
+    background-image: url(/src/assets/meeting-594091.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* mobile view css styling */
+
+@media(width < 850px) {
+.complexityhero-container {
+    margin-inline: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.complexity-h1 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+    br {
+        display: none;
+    }
+}
+
+.complexity-p-text {
+    font-weight: lighter;
+    font-size: 100%;
+
+    br {
+        display: none;
+    }
+
+}
+
+.scalability-h3 {
+    font-size: 150%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.scalability-p {
+    font-size: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(185, 185, 185) ;
+}
+
+.scalability-container {
+    margin-top: 50px;
+    display: grid;
+    justify-content: none;
+}
+
+.scale-content-container {
+    margin-top: 50px;
+}
+
+.scale-content-h4 {
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+
+.scale-content-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+    width: 350px;
+    line-height: 130%;
+    
+
+    br {
+        display: none;
+    }
+
+}
+
+.optimize-container {
+    margin-top: 20px;
+
+}
+
+.optimize-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.optimize-p-text {
+    font-size: 120%;
+    font-weight: lighter;
+    line-height: 130%;
+    width: 350px;
+    br {
+        display: none;
+    }
+}
+
+.automate-container {
+    margin-top: 20px;
+
+}
+
+.automate-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.automate-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+    line-height: 130%;
+    width: 350px;
+    br {
+        display: none;
+    }
+}
+
+.scalability-image-container {
+    margin-top: 50px;
+    width: 350px;
+    height: 450px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    background-image: url(/src//assets/engineer-4904884_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.governance-h3 {
+    font-size: 130%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.governance-p {
+    font-size: 100%;
+        padding-bottom: 10px;
+    border-bottom: 1px solid rgb(185, 185, 185) ;
+}
+
+.governance-container {
+    margin-top: 100px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.enforce-content-container {
+    margin-top: 50px;
+}
+
+.enforce-content-h4 {
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+
+.enforce-content-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+
+    line-height: 130%;
+    width: 350px;
+    br {
+        display: none;
+    }
+}
+
+.streamline-container {
+    margin-top: 20px;
+}
+
+.streamline-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.streamline-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+
+    line-height: 130%;
+    width: 350px;
+    br {
+        display: none;
+    }
+}
+
+.stay-container {
+    margin-top: 20px;
+}
+
+.stay-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+    
+}
+
+.stay-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+
+    line-height: 130%;
+    width: 350px;
+    br {
+        display: none;
+    }
+}
+
+.governance-image-container {
+    width: 350px;
+    height: 450px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    order: 0;
+    background-image: url(/src/assets/code-2558220.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+
+
+
+.managed-h3 {
+    font-size: 150%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+    br {
+        display: none;
+    }
+}
+
+.managed-p {
+    font-size: 100%;
+        padding-bottom: 10px;
+    border-bottom: 1px solid rgb(185, 185, 185) ;
+}
+
+.managed-container {
+    margin-top: 100px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.focus-content-container {
+    margin-top: 50px;
+}
+
+.focus-content-h4 {
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+
+.focus-content-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+
+    br {
+        display: none;
+    }
+    line-height: 130%;
+    width: 350px;
+}
+
+.align-container {
+    margin-top: 20px;
+}
+
+.align-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.align-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+     br {
+        display: none;
+    }
+    line-height: 130%;
+    width: 350px;
+}
+
+.built-container {
+    margin-top: 20px;
+}
+
+.built-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.built-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+     br {
+        display: none;
+    }
+    line-height: 130%;
+    width: 350px;
+}
+
+.managed-image-container {
+    width: 350px;
+    height: 450px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    order: 0;
+    background-image: url(/src//assets/programming-1873854.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+
+
+
+.extensibility-h3 {
+    font-size: 150%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.extensibility-p {
+    font-size: 100%;
+     padding-bottom: 10px;
+    border-bottom: 1px solid rgb(185, 185, 185) ;
+
+    br {
+        display: none;
+    }
+}
+
+.extensibility-container {
+    margin-top: 100px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.connect-content-container {
+    margin-top: 50px;
+}
+
+.connect-content-h4 {
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+
+.connect-content-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+     br {
+        display: none;
+    }
+    line-height: 130%;
+    width: 350px;
+}
+
+.bring-container {
+    margin-top: 20px;
+}
+
+.bring-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.bring-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+     br {
+        display: none;
+    }
+    line-height: 130%;
+    width: 350px;
+}
+
+.extend-your-container {
+    margin-top: 20px;
+}
+
+.extend-your-h4 {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.extend-your-p-text {
+    font-size: 100%;
+    font-weight: lighter;
+     br {
+        display: none;
+    }
+    line-height: 130%;
+    width: 350px;
+}
+
+.extensibility-image-container {
+    width: 350px;
+    height: 450px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    order: 0;
+    background-image: url(/src/assets/meeting-594091.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+
+}

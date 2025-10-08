@@ -1,0 +1,254 @@
+.herosection-container {
+    margin-top: 50px;
+    margin-inline: 100px;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.webflow-enterprise-container {
+    display: grid;
+    gap: 20px;
+}
+
+.webflow-enterprise {
+    font-weight: lighter;
+    font-size: 130%;
+}
+
+.enterprise-scale {
+    font-weight: 900;
+    font-size: 520%;
+    font-family: sans-serif;
+}
+
+.webflow-turn {
+    font-weight: lighter;
+    font-size: 130%;
+    line-height: 120%;
+}
+
+.two-image-section {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.first-image {
+    width: 350px;
+    height: 400px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    background-image: url(/src/assets/young-female-professional-consulting-male-colleague.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second-image {
+    width: 350px;
+    height: 400px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    background-image: url(/src/assets/laptop-2620118.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-form-input {
+    min-width: 250px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.contact-form-select {
+    padding: 15px;
+    margin-top: 5px ;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 79px;
+    border-radius: 5px;
+    border: 1px solid grey ;
+}
+
+.phone-number-contact-form-input {
+    padding: 15px;
+    margin-top: 5px ;
+    margin-bottom: 20px;
+    min-width: 195%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid grey ;
+}
+
+.contact-sales-h3 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 170%;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-form-button {
+    width: 150px;
+    padding: 20px;
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 10px 1px rgba(79, 79, 79, 0.4);
+    margin-bottom: 20px;
+    color: white;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.contact-sales-container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+/* mobile view css styling  */
+@media(width < 850px) {
+.herosection-container {
+    margin-top: 50px;
+    margin-inline: 20px;
+    display: grid;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.webflow-enterprise-container {
+    display: grid;
+    gap: 20px;
+}
+
+.webflow-enterprise {
+    font-weight: lighter;
+    font-size: 130%;
+}
+
+.enterprise-scale {
+    font-weight: 900;
+    font-size: 220%;
+    font-family: sans-serif;
+}
+
+.webflow-turn {
+    font-weight: lighter;
+    font-size: 100%;
+    line-height: 120%;
+    width: 350px;
+
+    br {
+        display: none;
+    }
+}
+
+.two-image-section {
+    margin-top: 100px;
+    display: none;
+    gap: 20px;
+}
+
+.first-image {
+    width: 350px;
+    height: 400px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    background-image: url(/src/assets/young-female-professional-consulting-male-colleague.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second-image {
+    width: 350px;
+    height: 400px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    background-image: url(/src/assets/laptop-2620118.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-form-input {
+    min-width: 250px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.contact-form-select {
+    padding: 15px;
+    margin-top: 5px ;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 79px;
+    border-radius: 5px;
+    border: 1px solid grey ;
+}
+
+.phone-number-contact-form-input {
+    padding: 15px;
+    margin-top: 5px ;
+    margin-bottom: 20px;
+    min-width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid grey ;
+}
+
+.contact-sales-h3 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 170%;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-form-button {
+    width: 150px;
+    padding: 20px;
+    background-color: var(--blue-color);
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 10px 1px rgba(79, 79, 79, 0.4);
+    margin-bottom: 20px;
+    color: white;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.contact-sales-container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+}

@@ -1,0 +1,156 @@
+.footer-container {
+    margin-inline: 100px;
+    margin-top: 100px;
+}
+
+
+.footer-sections-container {
+    display: flex;
+    gap: 230px;
+}
+
+.footer-container-h2 {
+    margin-bottom: 20px;
+}
+
+.footer-container-ul {
+    list-style: none;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 15px;
+    color: grey;
+}
+
+.resources-section {
+    margin-top: 50px;
+}
+
+.get-help-section {
+    margin-top: 50px;
+}
+
+.copyright-sections-p {
+    color: grey;
+}
+
+.copyright-sections {
+    margin-top: 100px;
+    position: relative;
+    top: -30px;
+    
+}
+
+.social-media-icons {
+    list-style: none;
+    color: grey;
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.logo-icon {
+    width: 1.4%;
+}
+
+.biglogo {
+    width: 40%;
+    margin-bottom: 0px;
+}
+
+.copy-logo-sections {
+display: flex;
+justify-content: space-between;
+align-items: last baseline;
+margin-top: -170px;
+margin-bottom: 0px;
+}
+
+
+/* mobile view css styling  */
+
+@media(width < 850px ) {
+.footer-container {
+    margin-inline: 20px;
+    margin-top: 100px;
+}
+
+
+.footer-sections-container {
+    display: grid;
+    gap: 15px;
+}
+
+.footer-container-h2 {
+    margin-bottom: 20px;
+}
+
+.footer-container-ul {
+    list-style: none;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    color: grey;
+}
+
+.resources-section {
+    margin-top: 15px;
+}
+
+.get-help-section {
+    margin-top: 15px;
+}
+
+.copyright-sections-p {
+    color: grey;
+}
+
+.copyright-sections {
+    margin-top: 100px;
+    position: relative;
+    top: -30px;
+    
+}
+
+.social-media-icons {
+    list-style: none;
+    color: grey;
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.logo-icon {
+    width: 1.4%;
+}
+
+.biglogo {
+    width: 80%;
+    margin-bottom: 0px;
+}
+
+.copy-logo-sections {
+display: grid;
+justify-content: space-between;
+align-items: last baseline;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#resources {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#company {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#community {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+}

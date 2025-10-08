@@ -1,0 +1,154 @@
+.marketing-team-container{
+    margin-inline: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.the-platform-h1 {
+    font-weight: bolder;
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+
+.the-platform-p-text {
+    font-weight: lighter;
+    font-size: 140%;
+
+}
+
+.marketing-sections{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+
+.marketing-images-1 {
+    width: 460px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 10px;
+    background-image: url(/src/assets/bike-1836934_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.marketing-images-2 {
+    width: 460px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 10px;
+    background-image: url(/src//assets/digital-laptop-working-global-business-concept.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.marketing-images-3 {
+    width: 460px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 10px;
+    background-image: url(/src//assets/business-manager-using-tablet-videocall-with-ceo-discussing-paperwork.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marketing-sections-div {
+    display: grid;
+    gap: 10px;
+}
+
+.marketing-sections-p {
+    line-height: 130%;
+}
+
+
+/* mobile view css styling */
+
+@media(width < 850px) {
+.marketing-team-container{
+    margin-inline: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.the-platform-h1 {
+    font-weight: bolder;
+    font-size: 220%;
+    margin-bottom: 20px;
+
+    br {
+        display: none;
+    }
+}
+
+.the-platform-p-text {
+    font-weight: lighter;
+    font-size: 100%;
+
+    br {
+        display: none;
+    }
+
+}
+
+.marketing-sections{
+    display: grid;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+
+.marketing-images-1 {
+    width: 350px;
+    height: 450px;
+    background-color: grey;
+    border-radius: 10px;
+    background-image: url(/src/assets/bike-1836934_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marketing-images-2 {
+    width: 350px;
+    height: 450px;
+    background-color: grey;
+    border-radius: 10px;
+    background-image: url(/src//assets/digital-laptop-working-global-business-concept.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.marketing-images-3 {
+    width: 350px;
+    height: 450px;
+    background-color: grey;
+    border-radius: 10px;
+    background-image: url(/src//assets/business-manager-using-tablet-videocall-with-ceo-discussing-paperwork.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marketing-sections-div {
+    display: grid;
+    gap: 10px;
+}
+
+.marketing-sections-p {
+    line-height: 130%;
+
+    br {
+        display: none;
+    }
+}
+
+.marketing-sections-h3 {
+    br {
+        display: none;
+    }
+}
+
+}
