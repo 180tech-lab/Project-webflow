@@ -1,5 +1,5 @@
 import React from 'react'
-import PlatformHero from '../../components/platformComp/platformhero/platformHero'
+import PlatformHero from '../../components/platformComp/platformHero/platformHero'
 import PlatformPerks from '../../components/platformComp/platformPerks/PlatformPerks'
 
 const Platform = () => {
