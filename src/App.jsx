@@ -11,7 +11,7 @@ function App() {
     <div>
       <Welcome/>
       <Complexity/>
-      <Platform/>
+      {/* <Platform/> */}
       <Footer/>
     </div>
   )
