@@ -1,7 +1,7 @@
 import React from 'react'
-import './PlatformHero.css'
+import './platformHero.css'
 
-const PlatformHero = () => {
+const platformHero = () => {
   return (
     <div className='platformhero-container'>
 
@@ -116,4 +116,6 @@ const PlatformHero = () => {
   )
 }
 
-export default PlatformHero
+export default platformHero
+
+
